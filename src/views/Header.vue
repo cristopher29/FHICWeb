@@ -18,11 +18,30 @@
             <li class="nav-item">
               <router-link class="nav-link" to="/crear-peticion">Crear petición</router-link>
             </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Mis peticiones</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Mi perfil</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Configuración</a>
+            </li>
           </ul>
 
           <div class="form-inline my-2 my-lg-0">
-            <input class="form-control mr-sm-2" type="search" placeholder="City" aria-label="City" id="city">
-            <input class="btn btn-success my-2 my-sm-0" type="submit" value="Search" >
+            <input class="form-control mr-sm-2" type="search"  aria-label="City" id="city">
+            <input class="btn btn-success my-2 my-sm-0" type="submit" value="Buscar" >
+          </div>
+          <span class="mx-3 my-0"><h6 class="my-0 text-white">Alberto. A</h6></span>
+          <div class="d-flex h-100 my-0">
+
+            <div class="image_outer_container">
+              <div class="green_icon"></div>
+              <div class="image_inner_container">
+                <img src="https://cdn.iconscout.com/icon/free/png-256/avatar-372-456324.png">
+              </div>
+            </div>
           </div>
         </div>
       </nav>

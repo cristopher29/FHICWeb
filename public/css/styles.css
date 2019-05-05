@@ -3,11 +3,11 @@
 .bg-top{  /*Color de fondo de la parte superior*/
     position: relative;
     min-height: 200px;
-    background: #E74C3C;
+    background: #FFB422;
 }
 
 .bg-footer{ /*Color de fondo de la parte inferior*/
-    background: #E74C3C;
+    background: #FFB422;
 }
 
 .text-white{
@@ -32,4 +32,35 @@
 
 .hidden{
     display: none;
+}
+.image_outer_container{
+    margin-top: auto;
+    margin-bottom: auto;
+    border-radius: 50%;
+    position: relative;
+}
+
+.image_inner_container{
+    border-radius: 50%;
+    padding: 4px;
+    background: #833ab4;
+    background: -webkit-linear-gradient(to bottom, #fcb045, #fd1d1d, #833ab4);
+    background: linear-gradient(to bottom, #fcb045, #fd1d1d, #833ab4);
+}
+.image_inner_container img{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border: 2px solid white;
+}
+
+.image_outer_container .green_icon{
+    background-color: #4cd137;
+    position: absolute;
+    right: 5px;
+    bottom: 2px;
+    height: 15px;
+    width: 15px;
+    border: 1px solid white;
+    border-radius: 50%;
 }
