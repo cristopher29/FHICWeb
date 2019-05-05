@@ -1,21 +1,30 @@
 <!--Template HTML-->
 
 <template>
+
   <div id="app">
-    <CrearPeticion/>
+
+    <Header/>
+
+    <div class="container">
+      <router-view></router-view>
+    </div>
+
+    <Footer/>
+
   </div>
 </template>
 
 
 <!--Scripts-->
 <script>
-import CrearPeticion from './components/CrearPeticion.vue'
+
+import Header from "./views/Header";
+import Footer from "./views/Footer";
 
 export default {
   name: 'app',
-  components: {
-    CrearPeticion,
-  }
+  components: {Footer, Header},
 }
 </script>
 

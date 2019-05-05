@@ -19,7 +19,16 @@
         </div>
         <div class="form-group">
             <label>Categoría</label>
-            <input type="number" class="form-control">
+            <div>
+                <span class="button-checkbox mr-3">
+                    <button type="button" class="btn btn-primary" data-color="primary">Cultura</button>
+                    <input type="checkbox" class="hidden" />
+                </span>
+                <span class="button-checkbox mx-3">
+                    <button type="button" class="btn btn-primary" data-color="primary">Seguridad</button>
+                    <input type="checkbox" class="hidden" checked />
+                </span>
+            </div>
         </div>
         <div class="alert alert-light" role="alert">
             <ul style="list-style: none">
