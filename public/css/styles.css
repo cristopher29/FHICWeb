@@ -59,3 +59,51 @@
 .vue-dropzone>.dz-preview .dz-details {
     background-color: rgba(255, 180, 34, 0.8);
 }
+
+.button-group-pills .btn {
+    border-radius: 20px;
+    line-height: 1.2;
+    margin-bottom: 15px;
+    margin-left: 10px;
+    border-color: #bbbbbb;
+    background-color: #FFF;
+    color: black;
+}
+.button-group-pills .btn.active {
+    border-color: #FFB422;
+    background-color: #FFB422;
+    color: #FFF;
+    box-shadow: none;
+}
+.button-group-pills .btn:hover {
+    border-color: #FFB422;
+    background-color: #FFB422;
+    color: #FFF;
+}
+.progress {
+    overflow: hidden;
+    height: 30px;
+    background-color: #ccc;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 2px rgba(0,0,0,.1);
+    box-shadow: inset 0 1px 2px rgba(0,0,0,.1);
+    margin-bottom: 20px;
+}
+.progress-bar {
+    width: 0;
+    height: 100%;
+    color: #fff;
+    font-size: 2em;
+    text-align: center;
+    background-color: #FFB422;
+}
+.progress-striped .progress-bar {
+    background-image: -webkit-linear-gradient(45deg,rgba(255,255,255,.15) 25%,transparent 25%,transparent 50%,rgba(255,255,255,.15) 50%,rgba(255,255,255,.15) 75%,transparent 75%,transparent);
+    background-image: linear-gradient(45deg,rgba(255,255,255,.15) 25%,transparent 25%,transparent 50%,rgba(255,255,255,.15) 50%,rgba(255,255,255,.15) 75%,transparent 75%,transparent);
+    background-size: 40px 40px;
+}
+.progress.active .progress-bar {
+    -webkit-animation: progress-bar-stripes 2s linear infinite;
+    animation: progress-bar-stripes 2s linear infinite;
+    -moz-animation: progress-bar-stripes 2s linear infinite;
+}

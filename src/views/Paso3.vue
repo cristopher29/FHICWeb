@@ -20,42 +20,44 @@
         <div class="form-group">
             <label>Categoría</label>
             <div>
-                <span class="button-checkbox mx-3">
-                    <button type="button" class="btn btn-primary my-3" data-color="primary">Cultura</button>
-                    <input type="checkbox" class="hidden" />
-                </span>
-                <span class="button-checkbox mx-3">
-                    <button type="button" class="btn btn-primary my-3" data-color="primary">Seguridad</button>
-                    <input type="checkbox" class="hidden" checked/>
-                </span>
-                <span class="button-checkbox mx-3">
-                    <button type="button" class="btn btn-primary my-3" data-color="primary">Transporte público</button>
-                    <input type="checkbox" class="hidden" />
-                </span>
-                <span class="button-checkbox mx-3">
-                    <button type="button" class="btn btn-primary my-3" data-color="primary">Medio ambiente</button>
-                    <input type="checkbox" class="hidden" />
-                </span>
-                <span class="button-checkbox mx-3">
-                    <button type="button" class="btn btn-primary my-3" data-color="primary">Servicios sociales</button>
-                    <input type="checkbox" class="hidden" />
-                </span>
-                <span class="button-checkbox mx-3">
-                    <button type="button" class="btn btn-primary my-3" data-color="primary">Educación</button>
-                    <input type="checkbox" class="hidden" />
-                </span>
-                <span class="button-checkbox mx-3">
-                    <button type="button" class="btn btn-primary my-3" data-color="primary">Mantenimiento</button>
-                    <input type="checkbox" class="hidden" />
-                </span>
-                <span class="button-checkbox mx-3">
-                    <button type="button" class="btn btn-primary my-3" data-color="primary">Ocio</button>
-                    <input type="checkbox" class="hidden" />
-                </span>
-                <span class="button-checkbox mx-3">
-                    <button type="button" class="btn btn-primary my-3" data-color="primary">Servicios funerarios</button>
-                    <input type="checkbox" class="hidden" />
-                </span>
+                <div class="button-group-pills text-center" data-toggle="buttons">
+                    <label class="btn btn-default">
+                        <input type="checkbox" name="options" hidden>
+                        <div>Cultura</div>
+                    </label>
+                    <label class="btn btn-default">
+                        <input type="checkbox" name="options" hidden>
+                        <div>Seguridad</div>
+                    </label>
+                    <label class="btn btn-default">
+                        <input type="checkbox" name="options" hidden>
+                        <div>Transporte público</div>
+                    </label>
+                    <label class="btn btn-default">
+                        <input type="checkbox" name="options" hidden>
+                        <div>Medio ambiente</div>
+                    </label>
+                    <label class="btn btn-default">
+                        <input type="checkbox" name="options" hidden>
+                        <div>Servicios sociales</div>
+                    </label>
+                    <label class="btn btn-default">
+                        <input type="checkbox" name="options" hidden>
+                        <div>Educación</div>
+                    </label>
+                    <label class="btn btn-default">
+                        <input type="checkbox" name="options" hidden>
+                        <div>Mantenimiento</div>
+                    </label>
+                    <label class="btn btn-default">
+                        <input type="checkbox" name="options" hidden>
+                        <div>Ocio</div>
+                    </label>
+                    <label class="btn btn-default">
+                        <input type="checkbox" name="options" hidden>
+                        <div>Servicios funerarios</div>
+                    </label>
+                </div>
             </div>
         </div>
         <div class="alert alert-light" role="alert">
