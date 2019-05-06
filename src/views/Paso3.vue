@@ -20,13 +20,41 @@
         <div class="form-group">
             <label>Categoría</label>
             <div>
-                <span class="button-checkbox mr-3">
-                    <button type="button" class="btn btn-primary" data-color="primary">Cultura</button>
+                <span class="button-checkbox mx-3">
+                    <button type="button" class="btn btn-primary my-3" data-color="primary">Cultura</button>
                     <input type="checkbox" class="hidden" />
                 </span>
                 <span class="button-checkbox mx-3">
-                    <button type="button" class="btn btn-primary" data-color="primary">Seguridad</button>
-                    <input type="checkbox" class="hidden" checked />
+                    <button type="button" class="btn btn-primary my-3" data-color="primary">Seguridad</button>
+                    <input type="checkbox" class="hidden" checked/>
+                </span>
+                <span class="button-checkbox mx-3">
+                    <button type="button" class="btn btn-primary my-3" data-color="primary">Transporte público</button>
+                    <input type="checkbox" class="hidden" />
+                </span>
+                <span class="button-checkbox mx-3">
+                    <button type="button" class="btn btn-primary my-3" data-color="primary">Medio ambiente</button>
+                    <input type="checkbox" class="hidden" />
+                </span>
+                <span class="button-checkbox mx-3">
+                    <button type="button" class="btn btn-primary my-3" data-color="primary">Servicios sociales</button>
+                    <input type="checkbox" class="hidden" />
+                </span>
+                <span class="button-checkbox mx-3">
+                    <button type="button" class="btn btn-primary my-3" data-color="primary">Educación</button>
+                    <input type="checkbox" class="hidden" />
+                </span>
+                <span class="button-checkbox mx-3">
+                    <button type="button" class="btn btn-primary my-3" data-color="primary">Mantenimiento</button>
+                    <input type="checkbox" class="hidden" />
+                </span>
+                <span class="button-checkbox mx-3">
+                    <button type="button" class="btn btn-primary my-3" data-color="primary">Ocio</button>
+                    <input type="checkbox" class="hidden" />
+                </span>
+                <span class="button-checkbox mx-3">
+                    <button type="button" class="btn btn-primary my-3" data-color="primary">Servicios funerarios</button>
+                    <input type="checkbox" class="hidden" />
                 </span>
             </div>
         </div>

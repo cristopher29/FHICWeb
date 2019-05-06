@@ -1,8 +1,6 @@
 
 
-.bg-top{  /*Color de fondo de la parte superior*/
-    position: relative;
-    min-height: 200px;
+.bg-yellow{  /*Color de fondo de la parte superior*/
     background: #FFB422;
 }
 
@@ -40,13 +38,6 @@
     position: relative;
 }
 
-.image_inner_container{
-    border-radius: 50%;
-    padding: 4px;
-    background: #833ab4;
-    background: -webkit-linear-gradient(to bottom, #fcb045, #fd1d1d, #833ab4);
-    background: linear-gradient(to bottom, #fcb045, #fd1d1d, #833ab4);
-}
 .image_inner_container img{
     height: 50px;
     width: 50px;
@@ -63,4 +54,8 @@
     width: 15px;
     border: 1px solid white;
     border-radius: 50%;
+}
+
+.vue-dropzone>.dz-preview .dz-details {
+    background-color: rgba(255, 180, 34, 0.8);
 }

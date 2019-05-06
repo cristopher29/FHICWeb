@@ -798,16 +798,16 @@ select.form-control-lg:not([size]):not([multiple]), .input-group-lg > select.for
 
 .btn-primary {
   color: #fff;
-  border-color: #007bff;
-  background-color: #007bff;
+  border-color: #FFB422;
+  background-color: #FFB422;
   box-shadow: none;
 }
 
 .btn-primary:hover {
   color: #fff;
-  background-color: #006fe6;
-  border-color: #006fe6;
-  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05), 0 4px 10px rgba(0, 123, 255, 0.25);
+  background-color: #F19F00;
+  border-color: #F19F00;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05), 0 4px 10px rgba(241, 159, 0, 0.25);
 }
 
 .btn-primary:focus, .btn-primary.focus {
@@ -824,24 +824,24 @@ select.form-control-lg:not([size]):not([multiple]), .input-group-lg > select.for
 .btn-primary:not(:disabled):not(.disabled):active, .btn-primary:not(:disabled):not(.disabled).active,
 .show > .btn-primary.dropdown-toggle {
   color: #fff;
-  background-color: #006fe6;
-  border-color: #0062cc;
+  background-color: #F19F00;
+  border-color: #F19F00;
   background-image: none;
   box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125) !important;
 }
 
 .btn-secondary {
   color: #fff;
-  border-color: #5A6169;
-  background-color: #5A6169;
-  box-shadow: none;
+  border-color: #F19F00;
+  background-color: #F19F00;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05), 0 4px 10px rgba(255, 180, 34, 0.25);
 }
 
 .btn-secondary:hover {
   color: #fff;
-  background-color: #4e545b;
-  border-color: #4e545b;
-  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05), 0 4px 10px rgba(90, 97, 105, 0.25);
+  background-color: #f1a722;
+  border-color: #F1A722;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05), 0 4px 10px rgba(255, 180, 34, 0.25);
 }
 
 .btn-secondary:focus, .btn-secondary.focus {

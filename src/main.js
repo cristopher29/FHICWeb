@@ -13,7 +13,7 @@ import App from "./App";
 import 'bootstrap'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import 'vue-form-wizard/dist/vue-form-wizard.min.css'
-import '../public/css/theme/shards.min.css'
+import '../public/css/theme/shards.css'
 import '../public/css/styles.css'
 
 // jQuery

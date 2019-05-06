@@ -2,7 +2,7 @@
 
 <template>
 
-  <form-wizard @on-complete="onComplete" title="" subtitle="" nextButtonText="Siguiente" backButtonText="Volver" finishButtonText="Finalizar" stepSize="sm">
+  <form-wizard @on-complete="onComplete" title="" subtitle="" nextButtonText="Siguiente" backButtonText="Volver" finishButtonText="Finalizar" stepSize="sm" color="#FFB422" error-color="#F19F00">
     <tab-content title="" :before-change="()=>validateStep('Paso1')">
       <Paso1 ref="Paso1" @on-validate="mergePartialModels"></Paso1>
     </tab-content>
