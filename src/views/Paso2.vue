@@ -2,16 +2,16 @@
     <div>
         <div class="form-group">
             <label >Descripción de la petición</label>
-            <textarea class="form-control" v-bind:class="{ 'is-invalid': $v.description.$error}" v-model.trim="description" @input="$v.description.$touch()"></textarea>
+            <textarea class="form-control" v-bind:class="{ 'is-invalid': $v.description.$error}" v-model.trim="description" @input="$v.description.$touch()" style="border:1px solid #FFE7B8"></textarea>
             <span class="invalid-feedback" v-if="$v.description.$error && !$v.description.required">La descripción es obligatoria</span>
         </div>
         <div class="form-group">
             <label>Número de votos necesarios</label>
-            <input type="number" class="form-control" v-bind:class="{ 'is-invalid': $v.maxVotes.$error }" v-model.trim="maxVotes" @input="$v.maxVotes.$touch()">
+            <input type="number" class="form-control" v-bind:class="{ 'is-invalid': $v.maxVotes.$error }" v-model.trim="maxVotes" @input="$v.maxVotes.$touch()" style="border:1px solid #FFE7B8">
             <span class="invalid-feedback" v-if="$v.maxVotes.$error && !$v.maxVotes.required">Número de votos es obligatorio</span>
             <span class="invalid-feedback" v-if="$v.maxVotes.$error && !$v.maxVotes.numeric">Número de votos tiene que ser un número</span>
         </div>
-        <div class="alert alert-light" role="alert">
+        <div class="alert alert-light" role="alert" style="background: #FFE7B8">
             <ul style="list-style: none">
                 <li class="my-4">
                     <h6>Descripción de la petición</h6>

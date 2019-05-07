@@ -4,7 +4,7 @@
             <label >Dirección</label>
             <gmap-autocomplete class="form-control"
                     placeholder=""
-                    @place_changed="setPlace">
+                    @place_changed="setPlace" style="border:1px solid #FFE7B8">
             </gmap-autocomplete>
 
             <Gmap-Map style="width: 100%; height: 300px;" :zoom="15" :center="changingCenter">
@@ -60,7 +60,7 @@
                 </div>
             </div>
         </div>
-        <div class="alert alert-light" role="alert">
+        <div class="alert alert-light" role="alert" style="background: #FFE7B8">
             <ul style="list-style: none">
                 <li class="my-4">
                     <h6>Dirección</h6>

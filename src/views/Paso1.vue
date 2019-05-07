@@ -2,14 +2,14 @@
     <div>
         <div class="form-group">
             <label >Título</label>
-            <input type="text" class="form-control" v-bind:class="{ 'is-invalid': $v.titulo.$error }" v-model.trim="titulo" @input="$v.titulo.$touch()">
+            <input type="text" class="form-control" v-bind:class="{ 'is-invalid': $v.titulo.$error }" v-model.trim="titulo" @input="$v.titulo.$touch()" style="border:1px solid #FFE7B8">
             <div class="invalid-feedback" v-if="$v.titulo.$error && !$v.titulo.required">El título es obligatorio</div>
         </div>
         <div class="form-group">
             <label >Fotos</label>
-            <vue-dropzone ref="myVueDropzone" id="dropzone" :options="dropzoneOptions"></vue-dropzone>
+            <vue-dropzone ref="myVueDropzone" id="dropzone" :options="dropzoneOptions" style="border:1px solid #FFE7B8"></vue-dropzone>
         </div>
-        <div class="alert alert-light" role="alert">
+        <div class="alert alert-light" role="alert" style="background: #FFE7B8">
             <ul style="list-style: none">
                 <li class="my-4">
                     <h6>Título</h6>
