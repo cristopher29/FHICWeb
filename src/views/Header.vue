@@ -4,7 +4,7 @@
       <div class="container">
         <!-- Navigation -->
         <nav class="navbar navbar-expand-lg navbar-dark secondary-color lighten-1">
-          <a class="navbar-brand" href="#"><h3 class="text-white">CitySentry</h3></a>
+          <a class="navbar-brand" href="#"><h3 class="text-white">CityPush</h3></a>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent-5" aria-controls="navbarSupportedContent-5" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
