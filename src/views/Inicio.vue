@@ -23,8 +23,12 @@
                                         <span>40 votos de 100 </span>
                                     </div>
                                 </div>
-                                <p class="card-text text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                                <a href="#" class="btn btn-primary">Votar</a>
+                                <p class="card-text text-justify">
+								Últimamente, en la zona de los alrededores donde vivo, hay algunos contenedores que están acumulando residuos debido a que no se está cumpliendo con su horario de recogida.
+								Hace falta que el ayuntamiento y la empresa de trata de residuos de la ciudad cumplan con sus obligaciones y retiren las bolsas de basura y residuos varios acumulados y cumplan a partir de ahora para mantener las calles limpias.
+								La situación es INSOSTENIBLE!
+								</p>
+								<a href="#" class="btn btn-primary">Votar</a>
                             </div>
                         </div>
                     </div>
@@ -42,8 +46,12 @@
                                         <span>20 votos de 100 </span>
                                     </div>
                                 </div>
-                                <p class="card-text text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                                <a href="#" class="btn btn-primary">Votar</a>
+                                <p class="card-text text-justify">
+								Cerca de la oficina donde trabajo hay una zona con plazas de parquing reservadas para carga y descarga para los vehículos que abastecen los comercios de la zona.
+								Pues desde hará más o menos un mes las plazas reservadas en cuestión se han visto ocupadas por vehículos de particulares por las mañanas de algunos de los trabajadores de las oficinas cercanas, violando así las normas de uso de dichos aparcamientos.
+								Pedimos pues que, desde el servicio de policía de tráfico y grúas municipales, vigilen la zona en hora punta para así retirar los vehículos infractores y de este modo no se dificulte el tráfico por los camiones de carga y descarga.
+								</p>
+								<a href="#" class="btn btn-primary">Votar</a>
                             </div>
                         </div>
                     </div>
@@ -61,8 +69,12 @@
                                         <span>80 votos de 100 </span>
                                     </div>
                                 </div>
-                                <p class="card-text text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                                <a href="#" class="btn btn-primary">Votar</a>
+                                <p class="card-text text-justify">
+								El parque donde mi hijo y sus amigos suelen ir a jugar por la tarde está en mal estado.
+								La zona de juego infantil suele estar rodeada por una valla. Pues dicha valla, en distintos lugares, tiene los listones de madera rotos y deteriorados, de manera que son peligrosos por su forma punzante y astillas.
+								Rogamos a los encargados de parques y jardines que lo solucionen con la mayor brevedad posible.
+								</p>
+								<a href="#" class="btn btn-primary">Votar</a>
                             </div>
                         </div>
                     </div>
