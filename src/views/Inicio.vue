@@ -73,11 +73,43 @@
             </div>
             <div class="col col-md-4">
                 <h4 class="mb-4">Temas</h4>
-                <div>
-                    <button class="btn btn-primary m-2">Cultura</button> <button class="btn btn-primary m-2">Transporte público</button> <button class="btn btn-primary m-2">Medio ambiente</button>
-                    <button class="btn btn-primary m-2">Sanidad</button> <button class="btn btn-primary m-2">Servicios sociales</button> <button class="btn btn-primary m-2">Educación</button>
-                    <button class="btn btn-primary m-2">Seguridad</button> <button class="btn btn-primary m-2">Mantenimiento</button> <button class="btn btn-primary m-2">Ocio</button>
-                    <button class="btn btn-primary m-2">Servicios funerarios</button>
+                <div class="button-group-pills text-center" data-toggle="buttons">
+                    <label class="btn btn-default">
+                        <input type="checkbox" name="options" hidden>
+                        <div>Cultura</div>
+                    </label>
+                    <label class="btn btn-default">
+                        <input type="checkbox" name="options" hidden>
+                        <div>Seguridad</div>
+                    </label>
+                    <label class="btn btn-default">
+                        <input type="checkbox" name="options" hidden>
+                        <div>Transporte público</div>
+                    </label>
+                    <label class="btn btn-default">
+                        <input type="checkbox" name="options" hidden>
+                        <div>Medio ambiente</div>
+                    </label>
+                    <label class="btn btn-default">
+                        <input type="checkbox" name="options" hidden>
+                        <div>Servicios sociales</div>
+                    </label>
+                    <label class="btn btn-default">
+                        <input type="checkbox" name="options" hidden>
+                        <div>Educación</div>
+                    </label>
+                    <label class="btn btn-default">
+                        <input type="checkbox" name="options" hidden>
+                        <div>Mantenimiento</div>
+                    </label>
+                    <label class="btn btn-default">
+                        <input type="checkbox" name="options" hidden>
+                        <div>Ocio</div>
+                    </label>
+                    <label class="btn btn-default">
+                        <input type="checkbox" name="options" hidden>
+                        <div>Servicios funerarios</div>
+                    </label>
                 </div>
             </div>
         </div>

@@ -48,19 +48,19 @@
 
             <ul class="navbar-nav w-100 justify-content-center">
               <li class="nav-item active">
-                <router-link class="nav-link" to="/">Inicio <span class="sr-only">(current)</span></router-link>
+                <router-link class="nav-link" to="/" style="color:#E9ECEF">Inicio <span class="sr-only">(current)</span></router-link>
               </li>
               <li class="nav-item">
-                <router-link class="nav-link" to="/crear-peticion">Crear petición</router-link>
+                <router-link class="nav-link" to="/crear-peticion" style="color:#E9ECEF">Crear petición</router-link>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Mis peticiones</a>
+                <a class="nav-link" href="#" style="color:#E9ECEF">Mis peticiones</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Mi perfil</a>
+                <a class="nav-link" href="#" style="color:#E9ECEF">Mi perfil</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Configuración</a>
+                <a class="nav-link" href="#" style="color:#E9ECEF">Configuración</a>
               </li>
             </ul>
 
