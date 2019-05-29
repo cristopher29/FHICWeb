@@ -38,7 +38,11 @@ export default {
   },
   methods:{
     onComplete: function(){
-      this.$swal('Enviado', 'Tu petición ha sido enviada', 'success');
+      this.$swal('Enviado', 'Tu petición ha sido enviada', 'success').then((result) => {
+        if (result.value) {
+          this.$router.push('/');
+        }
+      });
     },
     mergePartialModels(model, isValid){
       if(isValid){

@@ -7,9 +7,12 @@
         </div>
         <div class="form-group">
             <label>Número de votos necesarios</label>
-            <input type="number" class="form-control" v-bind:class="{ 'is-invalid': $v.maxVotes.$error }" v-model.trim="maxVotes" @input="$v.maxVotes.$touch()">
-            <span class="invalid-feedback" v-if="$v.maxVotes.$error && !$v.maxVotes.required">Número de votos es obligatorio</span>
-            <span class="invalid-feedback" v-if="$v.maxVotes.$error && !$v.maxVotes.numeric">Número de votos tiene que ser un número</span>
+            <select class="form-control">
+                <option>1000 votos</option>
+                <option>5000 votos</option>
+                <option>10000 votos</option>
+                <option>100000 votos</option>
+            </select>
         </div>
         <div class="alert alert-light" role="alert">
             <ul style="list-style: none">
@@ -34,7 +37,7 @@
 
 <script>
 
-    import { required, numeric } from 'vuelidate/lib/validators'
+    import { required } from 'vuelidate/lib/validators'
 
     export default {
         name: "Paso2",
@@ -48,11 +51,7 @@
             description: {
                 required
             },
-            maxVotes: {
-                required,
-                numeric
-            },
-            form: ['description', 'maxVotes']
+            form: ['description']
         },
         methods: {
             validate() {
